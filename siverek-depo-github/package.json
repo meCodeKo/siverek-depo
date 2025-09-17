@@ -1,0 +1,37 @@
+{
+  "name": "siverek-inventory-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "init-db": "node init-mongodb.js",
+    "setup-mongodb": "node scripts/setup-mongodb.js"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "date-fns": "^4.1.0",
+    "jspdf": "^3.0.2",
+    "jspdf-autotable": "^5.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.6.1",
+    "next": "15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "uuid": "^13.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "20.19.15",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
